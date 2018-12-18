@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>烟花模拟系统</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>欢迎来到烟花模拟系统</h1>
+        <p style="margin-top: 30px;">您可以在下方自主DIY烟花不同部位的颜色、质地，并观看试放效果</p>
+    </div>
+    <div class="group">
+        <span class="label label-default name" style="font-size: 20px;">第一组火药</span>
+        <button type="button" class="btn btn-primary" onclick="turnblue(1)">蓝色烟花</button>
+        <button type="button" class="btn btn-success" onclick="turngreen(1)">绿色烟花</button>
+        <button type="button" class="btn btn-warning" onclick="turnorange(1)">橙色烟花</button>
+        <button type="button" class="btn btn-danger" onclick="turnred(1)">红色烟花</button>
+    </div>
+
+    <div class="group">
+        <span class="label label-default name" style="font-size: 20px;">第二组火药</span>
+        <button type="button" class="btn btn-primary" onclick="turnblue(2)">蓝色烟花</button>
+        <button type="button" class="btn btn-success" onclick="turngreen(2)">绿色烟花</button>
+        <button type="button" class="btn btn-warning" onclick="turnorange(2)">橙色烟花</button>
+        <button type="button" class="btn btn-danger" onclick="turnred(2)">红色烟花</button>
+    </div>
+
+    <div class="group">
+        <span class="label label-default name" style="font-size: 20px;">第三组火药</span>
+        <button type="button" class="btn btn-primary" onclick="turnblue(3)">蓝色烟花</button>
+        <button type="button" class="btn btn-success" onclick="turngreen(3)">绿色烟花</button>
+        <button type="button" class="btn btn-warning" onclick="turnorange(3)">橙色烟花</button>
+        <button type="button" class="btn btn-danger" onclick="turnred(3)">红色烟花</button>
+    </div>
+
+    <div class="group">
+        <span class="label label-default name" style="font-size: 20px;">第四组火药</span>
+        <button type="button" class="btn btn-primary" onclick="turnblue(4)">蓝色烟花</button>
+        <button type="button" class="btn btn-success" onclick="turngreen(4)">绿色烟花</button>
+        <button type="button" class="btn btn-warning" onclick="turnorange(4)">橙色烟花</button>
+        <button type="button" class="btn btn-danger" onclick="turnred(4)">红色烟花</button>
+    </div>
+
+    <div onclick="gotofirework()">
+        <image src="images/play.png" class="play"></image>
+    </div>
+
+    <div class="firework-box">
+        <image src="images/red.png" class="firework" id="first"></image>
+        <image src="images/red.png" class="firework" id="second"></image>
+        <image src="images/red.png" class="firework" id="third"></image>
+        <image src="images/red.png" class="firework" id="fourth"></image>
+    </div>
+</body>
+</html>

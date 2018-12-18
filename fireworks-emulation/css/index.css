@@ -1,0 +1,42 @@
+.jumbotron{
+    padding: 150px;
+}
+
+.choose-box{
+    padding: 50px 300px;
+}
+.choose-box .choose-box-text{
+    float: left;
+}
+
+.firework-box{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.firework{
+    height: 375px;
+    width: 150px;
+    margin-right: -75px;
+}
+
+.name{
+    margin-right: 60px;
+}
+.group{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin-right: 20px;
+}
+
+.play{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 100px;
+}

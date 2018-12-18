@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模拟烟花</title>
+</head>
+<style>
+    .back{
+        position: absolute;
+        right: 100px;
+        bottom: 200px;
+        width: 100px;
+        height: 100px;
+    }
+    .again{
+        position: absolute;
+        right: 100px;
+        bottom: 50px;
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<body>
+    <script>
+        var reload = function () {
+            location.reload()
+        }
+    </script>
+    <div class="demo"></div>
+    <a href="../index.html"><image src="../images/back.png" class="back"></image></a>
+    <div onclick="reload()"><image src="../images/again.png" class="again"></image></div>
+
+    <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="firework.js"></script>
+    <script type="text/javascript">
+        $('.demo').fireworks({
+            opacity: 1,
+            width: '100%',
+            height: '100%'
+        });
+    </script>
+</body>
+</html>
