@@ -6,6 +6,6 @@ a web fireworks-emulation system that you can choose the colors you like to emul
 
 ## 界面截图
 
-<img src="../images/index.png" width=70% />
+<img src="images/index.png" width=70% />
 
-<img src="../images/fireworks.png" width=70% />
+<img src="images/fireworks.png" width=70% />
