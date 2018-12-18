@@ -2,7 +2,7 @@
 a web fireworks-emulation system that you can choose the colors you like to emulate the firework effect.
 
 ## 演示地址
-[烟花模拟系统](fireworks-emulation/index.html)
+[烟花模拟系统](https://jasonlam0990.github.io/fireworks-emulation/)
 
 ## 界面截图
 
